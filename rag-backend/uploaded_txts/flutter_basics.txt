@@ -1,0 +1,16 @@
+
+Flutter Basics
+--------------
+
+Flutter is a UI toolkit developed by Google for building natively compiled apps from a single codebase.
+
+Key Features:
+- Hot reload
+- Rich widget set
+- Cross-platform (iOS, Android, Web)
+- Custom UI components
+
+Use Cases:
+- Mobile apps
+- Cross-platform development
+- MVPs and prototypes

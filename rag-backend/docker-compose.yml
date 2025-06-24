@@ -1,0 +1,20 @@
+version: '3'
+services:
+  db:
+    image: ankane/pgvector
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: rag_db
+    ports:
+      - "5432:5432"
+  app:
+    build: .
+    ports:
+      - "8000:5000"
+    environment:
+      - GEMINI_API_KEY=AIzaSyC7FCSPIoBMBmJzmIDWfWrE7-n9_vi9TLg
+      - DATABASE_URL=postgresql://user:password@db:5432/rag_db
+    depends_on:
+      - db

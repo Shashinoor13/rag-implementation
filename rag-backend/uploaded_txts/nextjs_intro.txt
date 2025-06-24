@@ -1,0 +1,16 @@
+
+Next.js Introduction
+--------------------
+
+Next.js is a React framework for building server-rendered and statically-generated web applications.
+
+Key Features:
+- File-based routing
+- API routes
+- Server-side rendering (SSR)
+- Static Site Generation (SSG)
+
+Use Cases:
+- SEO-friendly websites
+- Hybrid apps
+- JAMstack sites

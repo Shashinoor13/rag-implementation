@@ -1,0 +1,18 @@
+
+Redis Overview
+--------------
+
+Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports various data types like strings, hashes, lists, sets, and sorted sets.
+
+Key Features:
+- Ultra-fast performance
+- Persistence options
+- Pub/Sub messaging
+- Atomic operations
+- Lua scripting
+
+Use Cases:
+- Caching
+- Leaderboards
+- Session storage
+- Real-time analytics

@@ -1,0 +1,12 @@
+Flask
+flask-cors
+SQLAlchemy
+psycopg2-binary
+sentence-transformers
+openai
+python-dotenv
+pgvector
+flask_sqlalchemy
+flask_jwt_extended
+google-generativeai
+flask-migrate
