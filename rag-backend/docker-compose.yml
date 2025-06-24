@@ -12,7 +12,7 @@ services:
   app:
     build: .
     ports:
-      - "8000:5000"
+      - "8000:8000"
     environment:
       - GEMINI_API_KEY=AIzaSyC7FCSPIoBMBmJzmIDWfWrE7-n9_vi9TLg
       - DATABASE_URL=postgresql://user:password@db:5432/rag_db
